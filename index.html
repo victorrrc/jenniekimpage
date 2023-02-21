@@ -1,24 +1,56 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<div id="jennie-fanpage">
-  <h1>Welcome to Jennie Kim Fanpage</h1>
-  
-  <h2>Top Voted Photos</h2>
-  <ul>
-    <div class="photo-container">
-    <li><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnexttrend.com.my%2Fwp-content%2Fuploads%2F2021%2F09%2Fjennie-kim-calvin-klein-2021-10-550x550.jpg&f=1&nofb=1&ipt=c08b58f3e9f16ead2e1debe0dba6c030dcdba91ad9e4da0a72b169208c04968b&ipo=images" alt="Jennie Kim Gif 1"></li>
-    <li><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fapi.harpersbazaar.com.hk%2Fvar%2Fsite%2Fstorage%2Fimages%2F_aliases%2Fimg_640_w%2F7%2F3%2F0%2F9%2F3119037-1-chi-HK%2FJennie_CK_3.jpeg&f=1&nofb=1&ipt=3dd82a1b1d045cb9b1bb8900158029771c03b6614e3322a61ec4f40de9010221&ipo=images" alt="Jennie Kim Gif 2"></li>
-    <li><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn-origin.cool-style.com.tw%2Fcool%2F2022%2F02%2F49.jpg&f=1&nofb=1&ipt=804b4a537d89129ebe706506e5d164204f0e2b971883818d61633701549fb294&ipo=images" alt="Jennie Kim Gif 3"></li>
-    </div>
-  </ul>
-  
-  <h2>Top Voted Gifs</h2>
-  <ul>
-
-    <li><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F2.bp.blogspot.com%2F-AbFutAChXFQ%2FWeGuQzc9dcI%2FAAAAAAAAEvQ%2FHDq2uhaccYcfV1lg15TCuJz4cfbCBrZggCLcBGAs%2Fs1600%2Fp81.14.gif&f=1&nofb=1&ipt=b82f2ca0d1ee59fcde690856f91a40e739d382b038a4d04dc8d6bcc661b42ff0&ipo=images" alt="Jennie Kim Photo 1"></li>
-    <li><img src="jennie2.jpg" alt="Jennie Kim Photo 2"></li>
-    <li><img src="jennie3.jpg" alt="Jennie Kim Photo 3"></li>
-  </ul>
-</div>
-
+  <head>
+    <meta charset="utf-8">
+    <title>Jennie Kim Fanpage</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-PZvxMTBvCY8T/+M2rE+tYXyQ2h04oOZxvcwZ15DkjZl/Lh1/Pgr24pOoOHz/ZY+j" crossorigin="anonymous">
+    <style>
+      .photo-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .photo-container img {
+        max-width: 100%;
+        max-height: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Jennie Kim Fanpage</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#photos">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#videos">Videos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#bio">Bio</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container mt-3">
+        <h1 class="text-center mb-3">Jennie Kim Photos</h1>
+        <div class="photo-container" id="photos">
+          <img src="https://i1.wp.com/blackpinkupdate.com/wp-content/uploads/2019/09/2-BLACKPINK-Jennie-Elle-Korea-October-2019-Issue-Instagram-Post-683x1024.jpg?ssl=1" alt="Photo 1">
+          <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.celebsofworld.com%2Fwp-content%2Fuploads%2F2020%2F10%2Fjennie-kim-instagram-photos-october-2-11-2020-19.jpg&f=1&nofb=1&ipt=3380bfe249603e8b211e444235ef5fccfec406a26bebc30d25643cec603d4a3f&ipo=images" alt="Photo 2">
+          <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.asiachan.com%2FJennie.Kim.full.239717.jpg&f=1&nofb=1&ipt=97d270a12b8ea0b103afee05b827f673f3be06dde601b26da25badf021c16dbd&ipo=images" alt="Photo 3">
+          <!-- Add more photos here -->
+        </div>
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-O4NXNNORvGLM/0KKgCp7KMfBjKjhG7Vg5J/GST0dldKx2fJFV7n1lSlKjJgXW8Ja" crossorigin="anonymous"></script>
+  </body>
 </html>
