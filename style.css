@@ -24,11 +24,6 @@
   margin: 10px;
 }
 
-#jennie-fanpage img {
-  width: 300px;
-  height: 300px;
-}
-
 .photo-container img {
   width: 300px; /* set the desired width */
   max-height: 360px; /* set max height to 1.2x of width */
