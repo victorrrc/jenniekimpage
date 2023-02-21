@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jennie Kim Fanpage</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+    <style>
+      body {
+        font-family: 'Helvetica Neue', sans-serif;
+        color: #333;
+      }
+
+      header {
+        background-color: #fff;
+        box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+      }
+
+      .navbar-brand {
+        font-weight: bold;
+      }
+
+      .navbar-nav .nav-link {
+        font-weight: bold;
+      }
+
+      .photo-container {
+        margin-top: 20px;
+      }
+
+      .photo-container img {
+        margin: 10px;
+        border-radius: 5px;
+        box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+        transition: all 0.3s ease-in-out;
+      }
+
+      .photo-container img:hover {
+        transform: scale(1.1);
+        box-shadow: 0px 2px 20px rgba(0,0,0,0.4);
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      @media (max-width: 767px) {
+        h1 {
+          font-size: 2rem;
+        }
+        .photo-container img {
+          margin: 5px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">Jennie Kim</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Videos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <h1 class="text-center">Jennie Kim Fanpage</h1>
+      <div class="photo-container row justify-content-center">
+        <img class="col-sm-6 col-md-4 col-lg-3" src="https://via.placeholder.com/600x400" alt="Jennie Kim">
+        <img class="col-sm-6 col-md-4 col-lg-3" src="https://via.placeholder.com/600x400" alt="Jennie Kim">
+        <img class
