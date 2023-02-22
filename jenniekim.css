@@ -115,3 +115,18 @@ header {
   }
 }
 
+.gif {
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.gif:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.4);
+}
+
+
