@@ -26,10 +26,10 @@ header {
 }
 
 .photo-container img {
-  margin: 10px;
-  border-radius: 5px;
+  margin: 11px;
+  border-radius: 7px;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
   max-width: 100%;
   height: auto;
 }
@@ -40,8 +40,8 @@ header {
 }
 
 .links-section {
-  margin-top: 40px;
-  padding: 20px;
+  margin-top: 50px;
+  padding: 30px;
   border: 1px solid #ddd;
   border-radius: 5px;
   background-color: #fff;
