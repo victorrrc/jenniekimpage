@@ -115,13 +115,13 @@ header {
   }
 }
 
-.giphy-gifs {
+.gif-section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.giphy-gif {
+.gif-section {
   width: 80%;
   max-width: 100%;
   max-height: 400px;
