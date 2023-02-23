@@ -115,18 +115,16 @@ header {
   }
 }
 
-.gif {
-  width: 100%;
-  height: auto;
-  margin: 10px 0;
-  border-radius: 5px;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
-  transition: all 0.3s ease-in-out;
+.giphy-gifs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.gif:hover {
-  transform: scale(1.1);
-  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.4);
+.giphy-gif {
+  width: 30%;
+  max-height: 200px;
+  margin-bottom: 20px;
 }
 
 
