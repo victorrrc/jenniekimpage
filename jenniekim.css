@@ -115,10 +115,5 @@ header {
   }
 }
 
-.gif-section {
-  max-width: 100%;
-  height: auto;
-  max-height: calc(100vw * 0.6 * 0.8 * 0.8 * 1.2); /* 80% of 80% of 60% of viewport width, with 1.2 aspect ratio */
-}
 
 
